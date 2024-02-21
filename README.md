@@ -376,7 +376,7 @@ def base64_api(uname, pwd, img, typeid):
 
 
 if __name__ == "__main__":
-    img_path = r"C:\Users\w\Desktop\qnzg.png"
+    img_path = r"qnzg.png"
     result = base64_api(uname='', pwd='', img=img_path, typeid=3)
     print(result)
 ```
